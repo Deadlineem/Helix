@@ -21,10 +21,10 @@ namespace YimMenu
 {
 	static DWORD Main(void*)
 	{
-		const auto documents = std::filesystem::path(std::getenv("appdata")) / "Terminus";
+		const auto documents = std::filesystem::path(std::getenv("appdata")) / "Helix";
 		FileMgr::Init(documents);
 
-		LogHelper::Init("Terminus", FileMgr::GetProjectFile("./cout.log"));
+		LogHelper::Init("Helix", FileMgr::GetProjectFile("./debug.log"));
 
 		Data::DownloadModelsJson();
 
@@ -61,7 +61,7 @@ namespace YimMenu
 		ScriptMgr::AddScript(std::make_unique<Script>(&ContextMenuTick));
 		ScriptMgr::AddScript(std::make_unique<Script>(&MapEditor::Update));
 
-		Notifications::Show("Terminus", "Loaded succesfully", NotificationType::Success);
+		Notifications::Show("Helix", "Loaded succesfully", NotificationType::Success);
 
 #ifndef NDEBUG
 		LOG(WARNING) << "Debug Build. Switch to RelWithDebInfo or Release build configurations to have a more stable experience.";

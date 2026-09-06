@@ -12,7 +12,7 @@ namespace YimMenu
 	{
 		// TODO: Move this stuff
 		bool spoofName;
-		std::string spoofedName = "Terminus";
+		std::string spoofedName = "Helix";
 		bool spoofIP;
 		std::array<int, 4> spoofedIP = {127, 0, 0, 1};
 		bool spoofRID;

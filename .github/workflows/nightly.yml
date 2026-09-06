@@ -101,9 +101,9 @@ jobs:
       - name: Build 64bit release DLL
         run: |
           if (Test-Path "$env:CMAKE_PATH\cmake.exe") {
-            & "$env:CMAKE_PATH\cmake.exe" --build ./build --config RelWithDebInfo --target Terminus --
+            & "$env:CMAKE_PATH\cmake.exe" --build ./build --config RelWithDebInfo --target Helix --
           } else {
-            cmake --build ./build --config RelWithDebInfo --target Terminus --
+            cmake --build ./build --config RelWithDebInfo --target Helix --
           }
         shell: powershell
 
@@ -112,8 +112,8 @@ jobs:
         with:
           name: binary
           path: |
-            build/Terminus.dll
-            build/Terminus.pdb
+            build/Helix.dll
+            build/Helix.pdb
 
       - name: Generate Build Info
         id: var
@@ -182,7 +182,7 @@ jobs:
       - name: Echo build sha256
         id: build_sha
         run: |
-          sha256sum Terminus.dll > sha256.checksum
+          sha256sum Helix.dll > sha256.checksum
           echo "build_sha=$(cat sha256.checksum)" >> $GITHUB_OUTPUT
           cat sha256.checksum
 
@@ -204,9 +204,9 @@ jobs:
             You can download the build artifacts, generate a SHA256 checksum and compare it with the below binary.
             Build artifacts ARE NOT automatically the same as release assets since release assets can be modified afterwards.
 
-            These are nightly builds of Terminus, they are provided for testing purposes only:
+            These are nightly builds of Helix, they are provided for testing purposes only:
 
-            - Test if your build environment produces a broken Terminus.dll
+            - Test if your build environment produces a broken Helix.dll
             - Test if source code is out of date and no longer compatible with the current version of Red Dead Redemption 2
 
             If you wish to use this menu as-is you are on your own, no warranty is provided.
@@ -215,4 +215,4 @@ jobs:
             ${{ needs.build_nightly.outputs.full_sha }}
 
           files: |
-            Terminus.dll
+            Helix.dll

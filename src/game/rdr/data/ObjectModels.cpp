@@ -12,10 +12,9 @@ namespace YimMenu::Data
 		static const std::vector<ObjectModel> models = []() {
 			std::vector<ObjectModel> result;
 
-			// Download models.json from web if it doesn't exist locally
 			DownloadModelsJson();
 
-			// Load from %APPDATA%\Terminus\models.json
+			// Load from %APPDATA%\Helix\models.json
 			std::string appDataPath = GetAppDataPath();
 			std::string filePath = appDataPath + "models.json";
 

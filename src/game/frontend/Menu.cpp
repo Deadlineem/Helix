@@ -42,7 +42,7 @@ namespace YimMenu
 
 			    ImGui::SetNextWindowSize(ImVec2((*Pointers.ScreenResX / 3.1), (*Pointers.ScreenResY / 1.5)), ImGuiCond_Once);
 
-			    if (ImGui::Begin("Terminus", nullptr, ImGuiWindowFlags_NoDecoration))
+			    if (ImGui::Begin("Helix", nullptr, ImGuiWindowFlags_NoDecoration))
 			    {
 				    if (ImGui::Button("Unload", ImVec2(120, 0)))
 				    {

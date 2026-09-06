@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.20.x)
 
-project(Terminus VERSION 0.0.1 DESCRIPTION "Terminus, a beta-stage mod menu for Red Dead Redemption 2 and Red Dead Online, inspired by YimMenu, that protects against crashes and enhances your experience.")
+project(Helix VERSION 0.0.1 DESCRIPTION "Helix, a beta-stage mod menu for Red Dead Redemption 2. Built with stability in mind and inspired by YimMenu, it focuses on crash prevention while enhancing your overall gameplay experience.")
 
 # libs
 include(cmake/vulkan.cmake)

@@ -18,7 +18,7 @@ namespace YimMenu::Data
 		if (SHGetFolderPathA(NULL, CSIDL_APPDATA, NULL, 0, path) == S_OK)
 		{
 			std::string result = path;
-			result += "\\Terminus";
+			result += "\\Helix";
 			CreateDirectoryA(result.c_str(), NULL);
 			return result + "\\";
 		}
