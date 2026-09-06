@@ -27,7 +27,7 @@ Read the [SETUP](https://github.com/YimMenu/YimMenu/wiki/Setup-your-PC-for-YimMe
 
 ## Screenshots / UI Design
 
-![image](https://i.ibb.co/WvTJrLcM/Screenshot-190.png)
+![image](https://github.com/user-attachments/assets/55065d83-ef7c-4bf8-a7d7-4d2394c1f20a)
 
 ## Contributing
 
