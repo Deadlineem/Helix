@@ -32,5 +32,3 @@ Read the [SETUP](https://github.com/YimMenu/YimMenu/wiki/Setup-your-PC-for-YimMe
 ## Contributing
 
 You're free to contribute to Helix as long as the features are useful, safe and properly tested.
-
-Make sure to read the [CONTRIBUTING.md](CONTRIBUTING.md) file.
