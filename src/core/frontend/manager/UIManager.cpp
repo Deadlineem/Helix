@@ -1,4 +1,4 @@
-#include "UIManager.hpp"
+﻿#include "UIManager.hpp"
 
 namespace YimMenu
 {
@@ -36,7 +36,7 @@ namespace YimMenu
 		pos.y -= 28;
 		ImGui::SetCursorPos(ImVec2(pos.x + 130, pos.y));
 
-		if (ImGui::BeginChild("##minisubmenus", ImVec2(0, 50), true, ImGuiWindowFlags_NoScrollbar))
+		if (ImGui::BeginChild("##minisubmenus", ImVec2(0, 55), true, ImGuiWindowFlags_NoScrollbar | ImGuiWindowFlags_NoBackground))
 		{
 			if (m_ActiveSubmenu)
 				m_ActiveSubmenu->DrawCategorySelectors();
