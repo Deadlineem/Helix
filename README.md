@@ -15,6 +15,10 @@ Your choice of Injector is OPTIONAL as long as it supports DLL injection. Howeve
 2. Inject `Helix.dll` using [Cipher](https://github.com/Deadlineem/Cipher) or your preferred injector.
 3. Press **INSERT** to open/close the menu.
 
+1. ## How to compile Helix
+
+Read the [SETUP](https://github.com/YimMenu/YimMenu/wiki/Setup-your-PC-for-YimMenu-Development) guide.
+
 ## Structure
 
 - `core/` : Essential general features for the base
@@ -24,3 +28,9 @@ Your choice of Injector is OPTIONAL as long as it supports DLL injection. Howeve
 ## Screenshots / UI Design
 
 ![image](https://i.ibb.co/WvTJrLcM/Screenshot-190.png)
+
+## Contributing
+
+You're free to contribute to Helix as long as the features are useful, safe and properly tested.
+
+Make sure to read the [CONTRIBUTING.md](CONTRIBUTING.md) file.
