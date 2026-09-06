@@ -1,11 +1,19 @@
-# Terminus (formerly HorseMenu)
+﻿# Helix
 
-A mod menu for Red Dead Redemption 2 and Red Dead Online published by Rockstar Games. Strictly for educational purposes.
+A beta-stage mod menu for Red Dead Redemption 2 and Red Dead Online. Inspired by YimMenu, built for stability, and designed to enhance your gameplay experience.
 
-## How to use
-Use a popular injector (Xenos/Extreme Injector/Etc.) and inject into rdr2.exe
+> **⚠️ Disclaimer:** This project is strictly for educational purposes. Use at your own risk.
 
-(INSERT) Open/Close the menu
+## 🔑 Dependencies
+
+Helix is designed to pair seamlessly with **[Cipher](https://github.com/Deadlineem/Cipher)** – a dedicated injector/loader application built alongside this menu.
+Your choice of Injector is OPTIONAL as long as it supports DLL injection. However, for optimal performance and compatibility, we recommend using Cipher.
+
+## Usage
+
+1. Launch RDR2 or Red Dead Online.
+2. Inject `Helix.dll` using [Cipher](https://github.com/Deadlineem/Cipher) or your preferred injector.
+3. Press **INSERT** to open/close the menu.
 
 ## Structure
 
@@ -16,5 +24,3 @@ Use a popular injector (Xenos/Extreme Injector/Etc.) and inject into rdr2.exe
 ## Screenshots / UI Design
 
 ![image](https://i.ibb.co/WvTJrLcM/Screenshot-190.png)
-
-
